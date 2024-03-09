@@ -1,13 +1,11 @@
+<!DOCTYPE HTML>
 <html>
     <body>
-        <?php
-            $x = 100;  
-            $y = 50;
-
-            if ($x == 100 and $y == 50) {
-            echo "Hello world!";
-    }
-        ?>
+        <form action="math.php" method="post">
+        Name: <input type="text" name="name"><br>
+        E-mail: <input type="text" name="email"><br>
+        <input type="submit">
+    </form>
 
     </body>
 </html>
