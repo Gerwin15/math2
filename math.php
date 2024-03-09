@@ -1,2 +1,4 @@
-Welcome <?php echo $_POST["name"]; ?><br>
-Your email address is: <?php echo $_POST["email"]; ?>
+ <?php $in1 = $_POST["1"]; ?><br>
+ <?php $in2 = $_POST["2"]; ?>
+ <?php $output = $in1 + $in2 ;
+ echo "The sum is: ".$output ?>
