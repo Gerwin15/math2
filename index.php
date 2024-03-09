@@ -1,3 +1,8 @@
 <php>
-    echo hello
+    $x = 100;  
+    $y = 50;
+
+    if ($x == 100 and $y == 50) {
+     echo "Hello world!";
+    }
 </php>
